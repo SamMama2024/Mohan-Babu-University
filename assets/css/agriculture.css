@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* <--header--> */
+.one{
+    height: 60px;
+    width: 100%;
+    background-color:#1b2945;
+}
+.one img{
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.one .two{
+    margin-left: 70px;
+    margin-top: -25px;
+    color: gold;
+}
+.one #row{
+    position: absolute;
+    margin-left: 235px;
+    margin-top: -20px;
+}
+.one .three{
+    margin-left: 270px; 
+    margin-top: -35px;
+    color: gold;
+}
+.one .four{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -22px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(65, 223, 65);
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+}
+.one .four:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.one .five{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -22px;
+    height: 30px ;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    background-color: gold;
+}
+.one .five:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+.six{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.six img{
+    margin-left: 50px;
+    margin-top: 10px;
+     height: 80px; 
+    width: 150px;
+}
+.six ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.six ul li{
+    padding: 0 40px;
+    font-size: 20px;
+}
+.six ul li a:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+.aboutoptions{
+    margin-left: -240px;
+    display: none;
+    
+}
+.aboutoptions ul{
+    display: block;
+    margin-top: px;
+    background-color: white;
+}
+.aboutoptions ul li{
+    padding: 10px;
+}
+.six ul li:hover .aboutoptions{
+    display: block;
+    
+    position: absolute;
+    margin-top: -50px;
+}
+
+/* <--agri--> */
+.agri{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+   
+}
+.agri1{
+    padding: 440px;
+    margin-left: -410px; 
+}
+
+.agri1>h3{
+    color: #65b741;
+    font-size: 25px;
+}
+.agri1>h1{
+    color: white;
+    font-size: 50px;
+}
+.agri2{
+    display: flex;
+ }
+ .agri3{
+     width: 800px;
+     margin-left: 50px;
+ }
+ .agri3>p{
+     font-size: 18px;
+     margin-top: 70px;
+     text-align: justify;
+ }
+ .agri3>h1{
+     margin-top: 30px;
+ }
+ .agri4{
+     background-color:#1b2945;
+     color: white;
+     padding: 50px;
+     margin-left: 50px;
+     width: 450px;
+     margin-top: 70px;
+     height: 300px;
+ }
+ .agri4>h2{
+     margin-top: 10px;
+ }
+ .agri4>address{
+     margin-top: 40px;
+ }
+ .agri4>img{
+     margin-top: 40px;
+ }
+ .agri4>p{
+     margin-top: 10px;
+     color: #65b741;
+ }
+ .sa{
+     color: #65b741;
+ }
+ .agri5{
+    display: flex;
+    margin-left: 50px;
+}
+.agri6>h3{
+   
+    width: 600px;
+    height: 50px;
+    padding: 20px ;
+    padding-top: 14px;
+    color: white;
+    background-color: #65b741;
+    margin-top: 40px;
+}
+  .und>li,.bul>li{
+    border-bottom: 1px solid grey;
+    width: 450px;
+    padding: 15px;
+    list-style: none;
+    margin-top: 20px;
+}
+.agri7{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.agri7>h3{
+   
+    font-size: 18px;
+    color: #65b741;
+    background-color:rgb(232, 229, 229);
+    width: 450px;
+    height: 50px;
+    padding: 20px ;
+    padding-top: 15px;
+}
+.agri8{
+    background-color:#1b2945;
+    width:95%; 
+    height: 400px;
+    display: inline-flex;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.agri9>p{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 700px;
+    text-align: justify;
+      
+}
+.agri9>button{
+    margin-top: 10px;
+    background-color: #65b741;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-style: none;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.agri10>img{
+    margin-top: -50px;
+    margin-left: 70px;
+    width: 350px;
+    height: 250px;
+}
+/* <--footer--> */
+ .footall img{
+    height: 100px;
+    width: 120px;
+}
+.footall{
+    margin-top: 50px;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    width: 210px;
+    border-bottom: 3px solid rgb(70, 215, 70);
+    
+}
+.footall a{
+    margin-top: 40px;
+}
+.end{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    list-style: none;
+
+}
+.end1{
+    margin-top: 50px;
+    margin-left: 90px;
+    
+}
+.end1 li,.end2 li,.end3 li{
+    padding-top: 10px;
+    
+}
+.end2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.end3{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.end h4{
+    color: brown;
+    border-bottom: 2px solid rgb(58, 174, 58);
+    width: 150px;
+    padding-bottom: 10px;
+}
+.end li{
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+}
+.sos{
+    border: 1px solid black;
+    background-color: #1b2945;
+    color:  gray;
+    height: 90px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 90px;
+}
+.icon{
+    margin-left: 1100px;
+    margin-top: -40px;
+    color: green; 
+}
+.icon:hover{
+    cursor: pointer;
+    color: white;
+} 
+@media screen and (min-width:426px) and (max-width:769px) {
+    .one{
+        background-color: #1b2945;
+        width: 768px;
+    }
+    .six{
+        width: 768px;
+    }
+    .six ul{
+        margin-left: 10px;
+        font-size: 1px;
+     }
+     .six img{
+        margin-left: 5px;
+        width: 120px;
+        height: 80px;
+        margin-top: 10px;
+        padding-top: 10px;
+     }
+     .six ul li{
+        padding-right: 0px;
+     }
+    .agri{
+        width:100%;
+    }
+    .agri3>p{
+        margin-top: 20px;
+        text-align: justify;
+        
+    } 
+    .agri4{
+        height: 400px;
+         margin-top: 130px;
+    }
+    .agri6>h2{ 
+        margin-top: 30px;
+    }
+    .agri7{
+        margin-top:370px;
+        margin-left:-600px;
+       
+    }
+    .agri7>h3{
+        width: 600px;
+    }
+   
+    .agri8{
+        margin-left: 20px;
+    }
+    .agri9>p{
+        width: 400px;
+        font-size: 15px;
+         
+    } 
+    .agri10>img{
+        width: 230px;
+        margin-left: 25px;
+        height: 200px;
+    }
+    .end1,.end2,.end3{
+        margin-left: 10px;
+    }
+    .sos{
+        width: 800px;
+    }
+    .icon{
+        margin-left: 700px;
+        margin-top: -15px;
+    }
+         
+}
+@media screen and (max-width:426px) {
+    .one{
+        background-color: #1b2945;
+        width:1250px ;
+        height: 100px;
+     }
+    .one img{
+        height: 50px;
+        width:75px;
+        margin-left: 10px;
+    }
+    .one .two{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+    .one #row{
+        margin-left:370px ;
+        margin-top: -40px;
+    }
+    .one .three{
+        margin-left: 450px;
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    .one .four{
+        margin-left: 800px;
+        margin-top: -40px;
+        height: 50px;
+        width: 120px;
+    }
+    .one .five{
+        margin-left: 950px;
+        margin-top: -40px;
+        height: 50px;
+        width: 120px;
+    }
+     .six{
+         width:1250px ;
+     }
+     .six ul{
+        margin-left: 80px;
+        margin-top: 35px;
+     }
+     .six ul li{
+        font-size: 30px;
+     }
+    .agri{
+        width:1250px;
+        height: 700px;
+    }
+    .agri3>p{
+        width: 820px;
+        text-align: justify;
+    } 
+    .agri4{
+        height: 330px;
+    }
+    .agri4>h2{
+        margin-top: -20px;
+        
+    }
+    .agri4>address{
+        margin-top: 10px;
+        
+    }
+    
+    .agri6>h3{
+        width: 1100px;
+        font-size: 30px;
+    }
+    
+    .und>li,.bul>li{
+        width: 900px;
+        font-size: 25px;
+    }
+    .agri7{
+         margin-top:390px; 
+         margin-left:-1100px; 
+        
+    }
+
+    .agri7>h3{
+        width: 1100px;
+        font-size: 30px;
+    }
+    .agri8{
+        width: 1200px;
+        margin-left:20px;
+    }
+    .footall{
+        padding-bottom: 20px;
+        
+       }
+    .end{
+        display: block;
+       }
+       .end img{
+        width: 290px;
+        height: 180px;
+       }
+    .end p{
+        margin-top: 30px;
+        font-size: 35px;
+        width: 200px;
+    }
+    .end1,.end2,.end3{
+        margin-left: 10px;
+        font-size: 60px;
+       }
+    .end1 li{
+        font-size: 35px;
+    }
+    .end2 li{
+        font-size: 35px;
+    }
+    .end3 li{
+        font-size: 35px;
+    }
+    .icon{
+        margin-left: 1100px;
+         margin-top: -25px; 
+       }
+       .sos{
+        width: 1250px;
+        font-size: 25px;
+       }
+    
+}
+@media screen and (min-width:769px) and (max-width:1025px){
+    .one{
+        background-color: #1b2945;
+        width: 1250px;
+    }
+    .six{
+        width: 1250px;
+    }
+    .six ul{
+        margin-left: 95px;
+     }
+    .agri{
+        width:1250px;
+        height: 700px;
+    }
+    .agri3>p{
+        width: 800px;
+        text-align: justify; 
+    } 
+    .agri4{
+        height: 400px;
+        width: 400px;
+    }
+    .agri6>h2{
+        margin-top: -60px;
+    }
+    .agri7{
+        margin-top: 15px;
+    }
+.agri8{
+    width: 1200px;
+    margin-left:20px;
+}
+.footall{
+    width: 210px;
+    padding-bottom: 20px;
+
+}
+
+.end1{
+    margin-left: 170px;
+}
+.end2{
+    margin-left: 120px;
+}
+.end3{
+    margin-left: 120px;
+
+  
+}
+
+.sos{
+    width: 1240px;
+}
+.icon{
+    margin-top: -12px;
+}
+
+}

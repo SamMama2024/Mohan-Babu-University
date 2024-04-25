@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+/* heard */
+.one{
+    height: 60px;
+    width: 100%;
+    background-color:#1b2945;
+}
+.one img{
+    height: 23px;
+     margin-left: -150px; 
+    margin-top: 15px;
+}
+.one .two{
+    margin-left: 70px;
+    margin-top: -25px;
+    color: gold;
+}
+.one #row{
+    position: absolute;
+     margin-left: 40px;
+    margin-top: -20px;
+}
+.one .three{
+    margin-left: 270px;
+    margin-top: -35px;
+    color: gold;
+}
+.one .four{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -22px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(65, 223, 65);
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+}
+.one .four:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.one .five{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -22px;
+    height: 30px ;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    background-color: gold;
+}
+.one .five:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+.six{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.six img{
+    margin-left: 50px;
+    margin-top: 10px;
+     height: 80px; 
+    width: 150px;  
+}
+.six ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.six ul li{
+    padding: 0 40px;
+    font-size: 20px;
+}
+.six ul li a:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+.aboutoptions{
+    margin-left: -240px;
+    display: none;
+    
+}
+.aboutoptions ul{
+    display: block;
+    margin-top: px;
+    background-color: white;
+}
+.aboutoptions ul li{
+    padding: 10px;
+}
+.six ul li:hover .aboutoptions{
+    display: block;
+    
+    position: absolute;
+    margin-top: -50px;
+}
+
+
+
+.inside-banner{
+    margin-top: 10px;
+    height: 600px;
+   }
+   .aboutMBU{
+     padding: 430px;
+     margin-left: -400px;
+     color: white;
+   }
+   h3{
+    padding: 10px;
+    font-size: 20px;
+    color: #65B741;
+   }
+   h1{
+    font-size: 50px;
+   }
+   .mohanmatter{
+    margin-top: 80px;
+   }
+   img{
+    width: 400px;
+    margin-left: 35px;
+   }
+   i{
+    margin-left: 50px;
+    margin-top: 10px;
+   }
+   .matter1{
+    margin-top: -25px;
+    margin-left: 70px;
+    font-size: 20px;
+    padding: 10px;
+   }
+   .motter>i{
+    margin-left: 530px;
+    margin-top: 30px;
+   }
+   .matter2{
+    margin-left: 60px;
+    font-size: 20px;
+    padding: 5px;
+   }
+   .approval{
+    margin-left: 558px;
+    margin-top: -20px;
+    color: #50bd77;
+    font-size: 20px;
+    
+   }
+   .approval:hover{
+    text-decoration: underline;
+   }
+   .matter3{
+    border: 1px solid white;
+    width: 350px;
+    height: 552px;
+    margin-left: 500px;
+    margin-top: -570px;
+    font-family:sans-serif;
+    word-spacing: 10px;
+    font-size: 18.5px;
+    text-align: justify;
+   }
+   .matter4{
+    border: 1px solid white;
+    width: 350px;
+    height: 552px;
+    margin-left: 890px;
+    margin-top: -610px;
+    font-family:sans-serif;
+    word-spacing: 10px;
+    font-size: 18.5px;
+    text-align: justify;
+   }
+   .fafa{
+    margin-left: 200px;
+   }
+
+   
+
+   .Mission{
+    background-color: #1b2945;
+   }
+   .inside-Mission{
+    margin-top: 180px;
+    height: 500px;
+   }
+   .vision{
+    margin-left: 30px;
+   }
+   .vision>img{
+    width: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+   }
+   .vision>h3{
+    padding: 30px;
+   }
+   .vision>p{
+    border: 1px solid none;
+    width: 380px;
+    height: 250px;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+      word-spacing: 2px;  
+    text-align: justify;
+   }
+   .All{
+    display: flex;
+   }
+
+   
+
+   .partners{
+    background-color:black;
+    margin-top: 20px;
+    height: 250px;
+   }
+   .partners>h2{
+    color: white;
+     margin-left: 20px; 
+    padding: 50px;
+    font-size: 35px;
+   }
+   .partners>img{
+    width: 130px;
+     margin-top: -30px; 
+     margin-left: 50px;
+   }
+   .partners>.infosys{
+    margin-left: 100px;
+   }
+   .partners>.bny{
+    width: 150px;
+    margin-top: -50px;
+   }
+
+
+   
+
+   .footall img{
+    height: 100px;
+    width: 120px;
+}
+.footall{
+    margin-top: 50px;
+    font-size: 18px;
+    width: 210px;
+    
+}
+.footall a{
+    margin-top: 40px;
+}
+.end{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.end1{
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 30px;
+}
+.end1 li,.end2 li,.end3 li{
+    padding-top: 10px;
+}
+.end2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.end3{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.end h4{
+    color: brown;
+    border-bottom: 2px solid rgb(58, 174, 58);
+    width: 150px;
+    padding-bottom: 10px;
+}
+.end li{
+    font-size: 22px;
+}
+.sos{
+    border: 1px solid black;
+    background-color: black;
+    color: grey;
+    height: 90px;
+     padding-left: 20px; 
+    padding-top: 30px;
+    margin-top: 90px;
+}
+.icon{
+     margin-left: 1100px; 
+    margin-top: -40px;
+    color: green;
+}
+.icon:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+/* Media queries */
+   /* Tablets */
+ @media screen  and (max-width:768px){
+    .main-div{
+        width: 100%;
+    }
+    .one{
+        width: 800px;
+    }
+    .six{
+        width: 800px;
+    }
+    .six>img{
+        width:120px;
+        height: 80px;
+        margin-left: 1px;
+    }
+    .six ul{
+        margin-left: 1px;
+      
+       
+    }
+    .six ul li{
+        padding-right: 20px;
+        font-size:15px;
+    }
+     .banner{
+        width: 800px;
+    } 
+     .mohanmatter>img{
+        width: 599px; 
+         height: 500px; 
+    } 
+     .motter>.matter3{
+           margin-left: 10px;   
+         margin-top: 50px; 
+    } 
+    .motter>.approval{
+         margin-left: 80px;
+   }
+   .motter>i{
+    margin-left: 20px;
+    margin-top: 30px;
+   }
+    .matter4{
+      margin-left: 390px;  
+   } 
+   .Mission{
+    width: 800px;
+   }
+     .vision>p{
+    font-size: 15px;
+    width: 210px;
+   } 
+   .partners{
+     width: 800px; 
+   }
+   .partners>img{
+    width: 90px;
+   }
+   .partners>.bny{
+     width: 90px; 
+   }
+    .footall>img{
+    width: 200px; 
+    margin-left: -5px;
+   } 
+   .footall>p{
+    font-size: 15px;
+   }
+   .end1{
+     margin-left: 12px; 
+    margin-top: 70px;
+   }
+   .end2{
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .end3{
+     margin-left: 30px; 
+    margin-top: 70px;
+   }
+   .sos{
+    width: 700px;
+   }
+   .sos{
+    width: 769px;
+   }
+  .icon{
+    margin-left: 600px;
+    
+   }
+    }
+
+    /* mobiles */
+@media screen and  (max-width:426px) {
+    .main-div{
+        width: 800px;
+    }
+    .six{
+        width: 800px;
+    }
+    .six>img{
+        width:120px;
+        height: 80px;
+        margin-left: 1px;
+    }
+    .six ul{
+        margin-left: 1px;
+      
+       
+    }
+    .six ul li{
+        padding-right: 20px;
+        font-size:15px;
+    }
+     .banner{
+        width: 100%;
+    } 
+     .mohanmatter>img{
+        width: 599px; 
+         height: 500px; 
+    } 
+     .motter>.matter3{
+          margin-left: 20px;  
+         margin-top: 50px; 
+    } 
+    .motter>.approval{
+         margin-left: 80px;
+   }
+   .motter>i{
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+     .matter4{
+     margin-left: 400px; 
+   }  
+   .Mission{
+    width: 770px;
+   }
+     .vision>p{
+    font-size: 15px;
+    width: 220px;
+    margin-left:-20px;
+   } 
+   .partners{
+    width: 770px;
+   }
+   .partners>img{
+    width: 90px;
+   }
+   .partners>.bny{
+    width: 90px;
+   }
+   .footall{
+    padding-bottom: 20px;
+   }
+   .end{
+    display: block;
+   }
+   .end1,.end2,.end3{
+    margin-left: 10px;
+
+   }
+   .icon{
+    margin-left: 200px;
+    margin-top: -10px;
+   }.footall{
+    padding-bottom: 20px;
+   }
+   .end{
+    display: block;
+   }
+   .end1,.end2,.end3{
+    margin-left: 10px;
+
+   }
+   .icon{
+    margin-left: 650px;
+    margin-top: -30px;
+   }
+   }
+    
+    /* laptops */
+@media screen and (min-width:769px) and (max-width:1025px){
+     .main-div{
+        width: 1050px;
+    } 
+    .six ul {
+        margin-left: 10px;
+    }
+     .banner{
+        width: 100%;
+    }  
+      .mohanmatter>img{
+       width: 250px;
+       height: 350px;
+    } 
+    .matter1{
+        font-size: 16px;
+    }
+    .matter2{
+        font-size: 16px;
+    }
+     .motter>.matter3{
+           margin-left: 320px;   
+          margin-top: -440px;  
+          width: 330px;
+    } 
+    .motter>.approval{
+         margin-left: 300px;
+         /* margin-top: 150px; */
+   }
+   .motter>i{
+    margin-left: 270px;
+    margin-top: 110px;
+   }
+    .matter4{
+     margin-left: 660px; 
+     width: 345px;
+     margin-top: -695px ;
+   }  
+   .Mission{
+    width: 100%;
+   }
+     .vision>p{
+     width: 290px;
+     margin-top: -30px; 
+   } 
+   .partners{
+    width: 1040px;
+   }
+   .footall{
+    width: 250px;
+    padding-bottom: 20px;
+}
+.footall img{
+    width: 100px;
+}
+.end1{
+    margin-left: 110px;
+}
+.end2{
+    margin-left: 70px;
+}
+.end3{
+    margin-left: 60px;
+}
+.sos{
+    width: 1000px;
+}
+.icon{
+    margin-left: 800px;
+}
+   }
+    
+   
+   

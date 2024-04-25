@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+  /* header */
+  .one{
+    height: 60px;
+    width: 100%;
+    background-color:#1b2945;
+}
+.one img{
+    height: 23px;
+      margin-left: 35px;  
+    margin-top: 15px;
+}
+.one .two{
+    margin-left: 70px;
+    margin-top: -25px;
+    color: gold;
+}
+.one #row{
+    position: absolute;
+      margin-left: 230px; 
+    margin-top: -20px;
+}
+.one .three{
+    margin-left: 270px;
+    margin-top: -35px;
+    color: gold;
+}
+.one .four{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -22px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(65, 223, 65);
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+}
+.one .four:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.one .five{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -22px;
+    height: 30px ;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    background-color: gold;
+}
+.one .five:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+.six{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.six img{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+.six ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.six ul li{
+    padding: 0 40px;
+    font-size: 20px;
+}
+.six ul li a:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+.aboutoptions{
+    margin-left: -240px;
+    display: none;
+    
+}
+.aboutoptions ul{
+    display: block;
+    margin-top: px;
+    background-color: white;
+}
+.aboutoptions ul li{
+    padding: 10px;
+}
+.six ul li:hover .aboutoptions{
+    display: block;
+    
+    position: absolute;
+    margin-top: -50px;
+}
+
+
+
+.inside-banner{
+    margin-top: 10px;
+    height: 700px;
+   }
+    .aboutMBU{
+     padding: 570px;
+     margin-left: -530px;
+     color: white;
+   }
+    h3{
+    padding: 10px;
+    font-size: 20px;
+    color: #65B741;
+   }
+   h1{
+    font-size: 50px;
+   } 
+   
+    .mohan{
+    width: 600px;
+    height: 450px;
+   } 
+    .leader1{
+    display: flex;
+   } 
+   .matter{
+    width: 600px;
+    margin-left: 50px;
+    font-size: 20px;
+    word-spacing: 14px;
+    margin-top: -70px;
+   }
+   .matter>img{
+    width: 100px;
+    margin-top: 120px;
+   }
+   .matter>p{
+    margin-top: 20px;
+    text-align: justify;
+   }
+   .matter>h2{
+    font-size: 30px;
+    margin-top: 20px;
+   }
+   .leader2{
+    display: flex;
+    flex-direction: row-reverse;
+   }
+
+   /* footer */
+
+   .footall img{
+    height: 100px;
+    width: 120px;
+    padding: 10px;
+}
+.footall{
+    margin-top: 50px;
+    font-size: 16px;
+    width: 210px;
+    
+}
+.footall a{
+    margin-top: 40px;
+}
+.end{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.end1{
+    margin-top: 50px;
+    margin-left: 90px;
+    
+}
+.end1 li,.end2 li,.end3 li{
+    padding-top: 10px;
+    
+}
+.end2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.end3{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.end h4{
+    color: brown;
+    border-bottom: 2px solid rgb(58, 174, 58);
+    width: 150px;
+    padding-bottom: 10px;
+}
+.end li{
+    font-size: 18px;
+}
+.sos{
+    border: 1px solid black;
+    background-color: black;
+    height: 90px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 90px;
+    color: white;
+}
+.icon{
+    margin-left: 1100px;
+    margin-top: -40px;
+    color: green;
+    
+    
+   
+}
+.icon:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/* Media queries */
+   /* Tablets */
+   @media screen and  (min-width:426px) and (max-width:769px){
+    .main-div{
+        width: 100%;
+    }
+    .six>img{
+        width:120px;
+        height: 80px;
+        margin-left: 1px;
+    }
+    .six ul{
+        margin-left: 1px;
+      
+       
+    }
+    .six ul li{
+        padding-right: 20px;
+        font-size:15px;
+    }
+     .banner{
+        width: 100%;
+    } 
+    .leader1>img{
+        width: 300px;
+    } 
+     .matter{
+        width: 350px;
+          
+    } 
+    .leader2>img{
+         width: 400px;
+   }
+
+    .footall>img{
+    width: 100px;
+    margin-left: -5px;
+   } 
+   .footall>p{
+    font-size: 15px;
+   }
+   .end1{
+    margin-left: 12px;
+    margin-top: 70px;
+   }
+   .end2{
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .end3{
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .sos>p{
+    font-size: 13px;
+   }
+   .icon{
+    margin-left: 600px;
+    margin-top: -10px;
+    
+   }
+    }
+
+     /* mobiles */
+ @media screen and  (max-width:426px) {
+    .main-div{
+        width: 760px;
+    }
+    .six>img{
+        width:120px;
+        height: 80px;
+        margin-left: 1px;
+    }
+    .six ul{
+        margin-left: 1px;
+        
+    }
+    .six ul li{
+        padding-right: 20px;
+        font-size:15px;
+    }
+     .banner{
+        width: 100%;
+    } 
+    .leader1>img{
+        width: 300px;
+    } 
+     .matter{
+        width: 350px;
+          
+    } 
+    .leader2>img{
+         width: 400px;
+   }
+    .footall>img{
+    width: 100px;
+    margin-left: -5px;
+   } 
+   .footall>p{
+    font-size: 15px;
+   }
+   .end1{
+    margin-left: 12px;
+    margin-top: 70px;
+   }
+   .end2{
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .end3{
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .sos{
+    width: 760px;
+   }
+   .sos>p{
+    font-size: 13px;
+   }
+   .footall{
+    padding-bottom: 20px;
+   }
+   .end{
+    display: block;
+   }
+   .end1,.end2,.end3{
+    margin-left: 10px;
+   }
+
+   .icon{
+    margin-left: 700px;
+    margin-top: -10px;
+   }
+    }
+   @media screen and (min-width:769px) and (max-width:1025px){
+    .six ul {
+        margin-left: 10px;
+    }
+    .end2{
+        margin-left: 60px;
+    }
+    .end3{
+        margin-left: 60px;
+    }
+    .icon{
+        margin-left: 700px;
+        margin-top: -10px;
+    }
+   }
+    

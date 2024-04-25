@@ -1,0 +1,605 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.one{
+    height: 60px;
+    width: 100%;
+    background-color:#1b2945;
+}
+.one img{
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.one .two{
+    margin-left: 70px;
+    margin-top: -25px;
+    color: gold;
+     font-family: sans-serif;
+}
+.one #row{
+    position: absolute;
+    margin-left: 235px;
+    margin-top: -20px;
+}
+.one .three{
+    margin-left: 270px;
+    margin-top: -35px;
+    font-family: sans-serif;
+    color: gold;
+}
+.one .four{
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -22px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(65, 223, 65);
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    
+}
+.one .four:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.one .five{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -22px;
+    height: 30px ;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    background-color: gold;
+}
+.one .five:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+.six{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.six img{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 160px;
+    height: 80px;
+}
+.six ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.six ul li{
+    padding: 0 40px;
+    font-size: 20px;
+}
+.six ul li a:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+.aboutoptions{
+    margin-left: -240px;
+    display: none;
+    
+}
+.aboutoptions ul{
+    display: block;
+    margin-top: px;
+    background-color: white;
+}
+.aboutoptions ul li{
+    padding: 10px;
+}
+.six ul li:hover .aboutoptions{
+    display: block;
+    
+    position: absolute;
+    margin-top: -50px;
+}
+/* admission */
+.banner {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.inside-banner {
+    padding: 450px;
+    color: white;
+    margin-left: -400px;
+}
+
+h3 {
+    color: #65B741;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.Apply>h2 {
+    margin-left: 50px;
+    font-size: 40px;
+
+}
+
+.Apply{
+    background-color: white;
+    height: 50vh;
+    padding: 30px   ;
+}
+
+.matter1 {
+
+    width: 580px;
+    font-size: 20px;
+    height: 100px;
+    margin-top: 30px;
+    word-spacing: 2px;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+ .new{
+    color: green;
+}
+
+.new:hover {
+    cursor: pointer;
+    color: white;
+
+}
+
+.matter2 {
+
+    width: 550px;
+    font-size: 20px;
+    height: 157px;
+    margin-top: 30px;
+    word-spacing: 2px;
+    
+    text-align: justify;
+    margin-left: 100px;
+}
+
+.applymatter {
+    display: flex;
+
+}
+
+.icons {
+    display: inline-flex;
+    background-color: #1b2945;
+    color: white;
+    width: 100%;
+    height: 350px;
+
+}
+
+.icon1 p,
+.icon2 p,
+.icon3 p,
+.icon4 p {
+    text-align: justify;
+    width: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(231, 225, 225);
+    ;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.icon1 img {
+    height: 50px;
+}
+
+.icon1 h2,
+.icon2 h2,
+.icon3 h2,
+.icon4 h2 {
+    margin-top: 20px;
+}
+
+.icon1>a,
+.icon2 a,
+.icon3 a,
+.icon4 a{
+    color: green;
+    background-color: #1b2945;
+    border-style: none;
+    font-size: 15px;
+}
+
+.new2:hover {
+    color:black;
+    cursor: pointer;
+}
+.new2{
+    color: green;
+}
+
+.lab{
+    
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    position: fixed;
+    top: 2000;
+    bottom: 0;
+    z-index: -1;
+}
+
+.head {
+    display: inline-flex;
+    margin-top: 450px;
+    background-color: white;
+    width: 100%;
+}
+
+.head1 {
+    text-align: justify;
+    width: 600px;
+    margin-left: 40px;
+}
+
+.head1 h2 {
+    margin-top: 50px;
+}
+
+.head1 p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+.head2 {
+    text-align: justify;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.head2 h2 {
+    margin-top: 50px;
+}
+
+.head2 p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+ul {
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+.butt2 {
+    border: solid 1px;
+    background-color: green;
+    width: 150px;
+    height: 60px;
+    margin-top: 80px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.butt2:hover {
+    background-color: black;
+    cursor: pointer;
+}
+/* admission end */
+.footall img{
+    height: 100px;
+    width: 150px;
+}
+.footall{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 20px;
+    width: 210px;
+    border-bottom: 3px solid rgb(70, 215, 70);
+    
+}
+
+.end{
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 20px;
+    list-style: none;
+    background-color: white;
+    width: 100%;
+}
+.end1{
+    margin-top: 50px;
+    margin-left: 90px;
+    
+    
+}
+.end1 li,.end2 li,.end3 li{
+    padding-top: 10px;
+}
+.end2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.end3{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.end h4{
+    color: brown;
+    border-bottom: 2px solid rgb(58, 174, 58);
+    width: 150px;
+    padding-bottom: 10px;
+}
+.end li{
+    color: grey;
+    font-size: 20px;
+}
+.sos{
+    border: 1px solid black;
+    background-color: black;
+    color: grey;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.icon{
+    margin-left: 1100px;
+    margin-top: -20px;
+    color: green;
+   
+}
+.icon:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+/* mediaqueries */
+   /* Tablets */
+   @media screen and (min-width:426px) and (max-width:769px){
+    .one{
+        width: 879px;
+    }
+    .six{
+        width: 879px;
+    }
+    .six img{
+        margin-left: 10px;
+    }
+    .six ul{
+        margin-left: 10px;
+    }
+    .six ul li{
+        padding-left: 10px;
+    }
+    .banner{
+        width: 879px;
+    }
+    .Apply{
+        width: 820px;
+        height: 300px;
+    }
+    .lab{
+        margin-bottom: 10px;
+        width: 880px;
+    }
+    .applymatter>.matter1{
+        width: 200px;
+    }
+    .icons{
+        width: 879px;
+        height: 1250px;
+        display: block;
+       margin-top: -50px;
+    }
+    .head{
+        width: 879px;
+    }
+    .head1{
+        width: 400px;
+    }
+    .head1>button{
+        margin-top: 10px;
+    }
+    .footall{
+        margin-left: 40px;
+    }
+    
+    .end{
+        width: 890px;
+    
+        margin-left: -10px;
+    }
+    .end2,.end3{
+        margin-left: 40px;
+    }
+    .sos{
+        width: 860px;
+    }
+    .icon{
+        margin-left: 900px;
+    }
+    
+   }
+
+   /* laptop */
+   @media screen and (min-width:769px) and (max-width:1024px){
+    .six ul{
+        margin-left: 10px;
+    }
+    .banner{
+        width: 1010px;
+    }
+    .Apply{
+        width: 964px;
+        height: 300px;
+    }
+    .applymatter>.matter1{
+        width: 200px;
+    }
+    .icons{ 
+        width: 1010px;
+        height: 450px;
+       margin-top: -30px;
+    }
+    .icon1>p,.icon2>p,.icon3>p,.icon4>p{
+         font-size: 15px;
+         width: 150px;
+    }
+
+    .head{
+        width: 1010px;
+    }
+    .head1{
+        width: 400px;
+    }
+    .head1>button{
+        margin-top: 10px;
+    }
+    .lab{
+        width: 1010px;
+    }
+    .footall{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .end3,.end2{
+        margin-left: 10px;
+    }
+   }
+
+   /* mobile */
+   @media screen and (max-width:426px){
+    .one{
+        width: 1530px;
+    }
+    .six{
+        width:1500px ;
+    }
+    .six ul li{
+        font-size: 25px;
+        padding-left: 30px;
+        
+    }
+    .banner{
+        width: 1500px;
+    }
+    .Apply{
+        width: 1500px;
+        height: 500px;
+    }
+    .applymatter>.matter1{
+        width: 500px;
+        font-size: 35px;
+    } 
+    .matter2{
+        font-size: 35px;
+        width: 750px;
+    }  
+    .icons{
+        width: 1550px;
+        height: 450px;
+       margin-top: -50px;
+    }
+    .head{
+        width: 1650px;
+        /* display: block; */
+        font-size: 50px;
+         /* margin-top: -20px;  */
+        
+    }
+    .head1>p{
+        font-size: 40px;
+        width: 600px;
+    }
+    .head1>ul{
+        font-size: 40px;
+        width: 700px;
+    }
+    .head2>p{
+        font-size: 40px;
+        width: 600px;
+        margin-left: 200px;
+    }
+    .head2>ul{
+        font-size: 40px;
+        width: 600px;
+        margin-left: 200px;
+    }
+    .head1>button{
+        margin-top: 100px;
+    }
+     .icons{
+        height: 500px;
+    } 
+    .lab{
+        width: 1550px;
+        height: 1000px;
+        /* display: none; */
+        
+    }
+    .footall{
+        padding-bottom: 20px;
+        font-size: 30px;
+        
+       }
+       .end{
+        /* margin-left: 3px; */
+        width: 1650px;
+        
+    
+       }
+       .end1,.end2,.end3{
+         margin-left: 200px;
+        font-size: 40px; 
+        
+    
+       }
+       .end1>li{
+        font-size: 40px;
+       }
+       .icon{
+        margin-left: 200px;
+        margin-top: -10px;
+       }
+       .sos{
+        width: 1600px;
+       }
+
+    }
+    
+   
+   

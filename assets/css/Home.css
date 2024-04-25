@@ -1,0 +1,822 @@
+*{
+    margin:0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.one{
+    height: 60px;
+    width: 100%;
+    background-color:#1b2945;
+}
+.one img{
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.one .two{
+    margin-left: 70px;
+    margin-top: -25px;
+    color: gold;
+}
+.one #row{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -18px;
+}
+.one .three{
+    margin-left: 270px;
+    margin-top: -34px;
+    color: gold;
+}
+.one .four{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -22px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(65, 223, 65);
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+}
+.one .four:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.one .five{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -22px;
+    height: 30px ;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 8%;
+    border-style: none;
+    background-color: gold;
+}
+.one .five:hover{
+    cursor: pointer;
+    text-decoration: underline;   
+}
+.six{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.six img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* #bar{
+    display: none;
+} */
+.six ul{
+    display: inline-flex;
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.six ul li{
+    padding: 0 40px;
+    font-size: 20px;
+}
+.six ul li a:hover{
+    cursor: pointer;
+    color: green;
+    text-decoration: underline;
+}
+.aboutoptions{
+    margin-left: -240px;
+    display: none;   
+}
+.aboutoptions ul{
+    display: block;
+    background-color: white;
+    margin-left: 220px;
+}
+.aboutoptions ul li{
+    padding: 15px;
+}
+.six ul li:hover .aboutoptions{
+    display: block;
+    position: absolute;
+    margin-top: -50px; 
+}
+.seven{
+    height: 600px;
+    width: 100%;
+    margin-top: 8px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(../uploads/images/background\ image.avif);
+    /* overflow: hidden; */
+}
+.seven h3{
+    padding-top: 60px;
+    padding-left: 70px;
+    color: white;
+    font-size: 35px;
+}
+.seven h2{
+    padding-top: 70px;
+    padding-left: 70px;
+    color: white;
+    font-size: 55px;
+} 
+.eight{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.nine img{
+height: 450px;
+width: 672px;
+}
+.ten{
+    color: rgb(154, 154, 204);
+    background-image: url(../uploads/images/collage\ img.png);
+    height: 450px;
+    width: 673px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.ten h2{
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+.ten h4{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 27px;
+    color: green;
+}
+.ten p{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 15px;
+    color: white;
+}
+.ten button{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    font-size: 15px;
+}
+.ten button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(48, 46, 46);
+    border-style: none;
+}
+.eleven{
+    margin-top: 80px;
+    /* background-image: url(/assets/uploads/images/classroom\ img.webp); */
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+    display: inline-flex;
+}
+.eleven img{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.eleven h3{
+    margin-left:60px;
+    margin-top: 30px;
+    font-size: 33px;
+    color: green;
+}
+.eleven p{
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+    width: 800px;
+}
+.eleven h5{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.num{
+    margin-left: 900px;
+    margin-top: -280px;
+    color: green;
+}
+.twelve{
+    display: inline-flex;
+    margin-top: 20px;
+    height: 300px;
+    background-color: #1b2945;;
+}
+ .thirteen img{
+    height: 45px;
+    width: 50px;
+    margin-left: 40px;
+ }
+ .thirteen h2{
+    margin-left: 50px;
+ }
+ .thirteen p{
+    margin-left: 50px;
+ }
+ .thirteen button{
+    margin-left: 50px;
+ }
+ 
+ .thirteen img,.fourteen img,.fifteen img,.sixteen img{
+    margin-top: 30px;
+ }
+ .thirteen h2,.fourteen h2,.fifteen h2,.sixteen h2{
+    margin-top: 20px;
+    color: white;
+ }
+.thirteen p,.fourteen p, .fifteen p, .sixteen p{
+    font-size: 20px;
+    margin-top:5px;
+    color: white;
+}
+.thirteen button,.fourteen button,.fifteen button,.sixteen button{
+    margin-top: 40px;
+    background-color:#1b2945;
+    color: green;
+    border-style: none;
+}
+.thirteen button:hover{
+    cursor: pointer;
+    color: white;
+}
+.fourteen button:hover{
+    cursor: pointer;
+    color: white;
+}
+.fifteen button:hover{
+    cursor: pointer;
+    color: white;
+}.sixteen button:hover{
+    cursor: pointer;
+    color: white;
+}
+.seventeen{
+    display: inline-flex;
+    width: 100%;
+    background-color: white;
+    margin-left: -15px;
+}
+.hari h2{
+    margin-top: 30px;
+    margin-left: 55px ;
+}
+.hari h3{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.hari p{
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+.ibm{
+    display: inline-flex;
+}
+.eighteen{
+    border: 2px solid;
+    height: 500px;
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color:rgba(13, 13, 90, 0.932);
+}
+.eighteen img{
+    position: relative;
+    height: 70px;
+    width: 160px;
+    margin-left: 300px;
+    margin-top: 10px; 
+}
+#nineteen{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -70px; 
+    height: 50px;
+    width: 60px;
+}
+.twenty h3{
+    margin-left: -360px;
+    margin-top: 130px;
+    color: skyblue;
+}
+.twenty p{
+    width: 240px;
+    /* text-align: justify; */
+    margin-left: -360px;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+}
+.twenty img{
+    height: 280px;
+    width: 270px; 
+    margin-left: -360px;
+    margin-top: 15px;
+}
+.celebration{
+    display: inline-flex;
+}
+.twenty-one img{
+    height: 450px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.twenty-one h2{
+    margin-top: 15px;
+    margin-left: 500px;
+    color: rgba(5, 5, 97, 0.89);
+}
+.twenty-one p{
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 340px;
+    font-size: 17px;
+    color: gray;
+}
+.twenty-two{
+    display: inline-flex;
+}
+.twenty-two button{
+    margin-left: -450px ;
+    margin-top: 630px;
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    border-style: none;
+    color: white;
+}
+.twenty-two button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.twenty-two img{
+    height: 20px;
+    width: 20px;
+    margin-top: 645px;
+    margin-left: -30px;
+}
+
+/* footer */
+
+.footall img{
+    height: 100px;
+    width: 120px;
+}
+.footall{
+    margin-top: 50px;
+    color: grey;
+    font-size: 20px;
+    width: 150px;
+    border-bottom: 3px solid rgb(70, 215, 70);
+    
+}
+.footall a{
+    margin-top: 40px;
+}
+.end{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    list-style: none;
+
+}
+.end1{
+    margin-top: 50px;
+    margin-left: 90px;
+    
+}
+.end1 li,.end2 li,.end3 li{
+    padding-top: 10px;
+    
+}
+.end2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+
+.end3{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.end h4{
+    color: brown;
+    border-bottom: 2px solid rgb(58, 174, 58);
+    width: 150px;
+    padding-bottom: 10px;
+}
+.end li{
+    color: grey;
+    font-size: 20px;
+}
+.sos{
+    border: 1px solid black;
+    background-color: black;
+    color: grey;
+    height: 90px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 90px;
+}
+.icon{
+    margin-left: 900px;
+    margin-top: -20px;
+    color: green; 
+}
+.icon:hover{
+    cursor: pointer;
+    color: white;
+}
+@media screen and (min-width:426px) and (max-width:769px) {
+ .one{
+        background-color: #1b2945;
+        width: 810px;
+    }
+    .six{
+        width: 810px;
+    }
+    .six ul{
+        margin-left: 10px;
+        font-size: 1px;
+     }
+     .six img{
+        margin-left: 5px;
+        width: 120px;
+        height: 80px;
+        margin-top: 10px;
+        padding-top: 10px;
+     }
+     .six ul li{
+        padding-right: 0px;
+     }
+     .seven{
+        width: 810px;
+        height: 500px;
+    }
+     .seven img{
+         height: 500px; 
+     }
+     .nine img{
+        width: 410px;
+     }
+     .ten{
+        width:398px;
+     }
+     .ten h2{
+        font-size: 20px;
+     }
+     .ten h4{
+        font-size: 26px;
+     }
+     .ten p{
+        font-size: 17px;
+        width: 330px;
+     }
+     .ten>div{
+        background-color: rgba(79, 71, 85, 0.52); height: 450px; width: 398px;
+    }
+    .eleven{
+        width: 810px;
+    }
+     .eleven img{
+        width: 210px;
+        height: 80px;
+        margin-left: 20px;
+     }
+     .eleven h3{
+        margin-left: 55px;
+        font-size:18px;
+     }
+     .eleven p{
+        width: 700px;
+     }
+     .twelve{
+        height: 370px;
+        width: 810px;
+     }
+     .thirteen{
+        margin-left: -30px;
+     }
+     .thirteen h2{
+        font-size: 23px;
+     }
+     .thirteen p{
+        font-size: 20px;
+     }
+     .thirteen button{
+        margin-top: 30px;
+        font-size: 17px;
+     }
+     .fourteen{
+        margin-left: 5px;
+     }
+     .fourteen h2{
+        font-size: 23px;
+     }
+     .fourteen p{
+        font-size: 20px ;
+     }
+     .fourteen button{
+        margin-top: 80px;
+        font-size: 17px;
+     }
+     .fifteen{
+        margin-left: 5px;
+     }
+     .fifteen h2{
+        font-size: 23px;
+     }
+     .fifteen p{
+        font-size: 20px;
+     }
+     .fifteen button{
+        margin-top: 55px;
+        font-size: 17px;
+     }
+     .sixteen button{
+        margin-top: 70px;
+        font-size: 17px;
+     }
+     /* .seventeen h2{
+        margin-top: -500px;
+     } */
+     .seventeen {
+      display: inline-flex;
+     }
+     .hari p{
+      margin-left: 50px;
+      font-size: 25px;
+      width: 700px;
+      margin-top: 50px;
+     }
+     .hari h2{
+        margin-left: 70px;
+        margin-top: 30px;
+     }
+     .hari h3{
+         margin-left: 70px;
+         margin-top: 50px;
+     }
+     .ibm{
+        margin-top: 850px;
+        margin-left: -690px;
+     }
+     .eighteen{
+        width: 550px;
+        height: 600px;
+        margin-left: 50px;
+     }
+     .eighteen img{
+        width: 200px;
+     }
+     #nineteen{
+        margin-left: -470px;
+        margin-top: 15px;
+     }
+    .twenty h3{
+         margin-left: -420px;
+         margin-top: 150px;
+    }
+    .twenty p{
+        margin-left: -420px;
+        width: 300px;
+    }
+    .twenty img{
+        margin-top: 20px;
+        margin-left: -420px;
+    }
+    .twenty-one img{
+        width: 750px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .twenty-one h2{
+        margin-left: 230px;
+    }
+    .twenty-one p{
+        margin-left:230px ;
+    }
+    .twenty-two button{
+        margin-top: 480px;
+        margin-left: -350px;
+    }
+    .twenty-two img{
+        margin-top: 495px;
+    }
+    .end2,.end3{
+        margin-left: 50px;
+    }
+
+    .sos{
+        width: 780px;
+    }
+    .icon{
+        margin-left: 700px;
+    }
+     
+} 
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .nine img{
+        height: 100%;
+        width: 99%;
+     }
+     .six ul{
+        margin-left: 25px;
+     }
+     .hari p{
+    width: 470px;
+     }
+     .eighteen{
+        height: 680px;
+     }
+     .twenty{
+        margin-top: 70px;
+     }
+     .twenty-one img{
+        width: 700px;
+     }
+     .twenty-one h2{
+        margin-left: 400px;
+     }
+     .twenty-one p{
+        margin-left: 400px;
+     }
+     .end3,.end2{
+        margin-left: 80px;
+     }
+}
+@media screen and (max-width:426px) {
+    .one{
+       width:477px ;
+    }
+    .one img{
+        margin-left: 5px;
+        width: 15px;
+    }
+    .six{
+        width:477px ;
+    }
+    .one .two{
+        margin-left: 23px;
+        font-size: 13px;
+    }
+    .one #row{
+        margin-left: 138px;
+    }
+    .one .three{
+        margin-left: 163px;
+        font-size: 13px;
+    }
+    .one .four{
+        margin-left:310px ;
+        width: 50px;  
+    }
+    .four{
+        font-size: 15px;
+    }
+    .one .five{
+        margin-left:365px ;
+        width: 50px;  
+    }
+    .five{
+        font-size:15px ;
+    }
+    .six img{
+        width: 50px;
+        margin-left: 10px;
+    }
+    .six ul{
+        margin-left: 10px;
+    }
+    .six ul li{
+        font-size: 15px;
+        margin-top: -35px;
+        padding:0px 10px;
+    }
+    .seven{
+        height: 400px;
+        width: 477px;
+    }
+    .seven h3{
+        /* padding-left: 1px; */
+        font-size: small;
+    }
+    .seven h2{
+        font-size: small;
+    }
+    .eight{
+        display: block;
+    }
+    .nine img{
+        width: 477px;
+    }
+    .ten{
+        width:477px;
+     }
+     .ten h2{
+        font-size: 28px;
+     }
+     .ten h4{
+        font-size: 25px;
+     }
+     .ten p{
+        font-size: 23px;
+        width: 330px;
+     }
+     .ten>div{
+        background-color: rgba(79, 71, 85, 0.52); height: 450px; width: 477px;
+    }
+    .eleven{
+        width: 477px;
+    }
+    .eleven div{
+        background-color: rgba(119, 119, 184, 0.603);width: 477px; height: 500px;
+    }
+    .eleven p{
+        width: 300px;
+        font-size: 18px;
+    }
+    .twelve{
+        display: block;
+        height: 1050px;
+        width: 477px;
+    }
+    .fourteen,.fifteen,.sixteen{
+        margin-left: 50px;
+    }
+    .seventeen{
+        display: block;
+    }
+    .hari p{
+        width: 380px;
+    }
+    .eighteen{
+        width: 370px;
+    }
+    .eighteen img{
+        margin-left: 240px;
+    }
+    #nineteen{
+        margin-left:10px;
+    }
+    .twenty{
+        margin-left: 35px;
+    }
+    .twenty-one img{
+        width: 365px;
+        margin-left: 35px;
+    }
+    .twenty-one h2{
+        margin-left: 70px;
+    }
+    .twenty-one p{
+        margin-left:70px ;
+    }
+    .twenty-two button{
+        margin-left: -260px;
+    }
+    .footall{
+        padding-bottom: 20px;
+    }
+    .end{
+        display: block;
+       }
+    .end1,.end2,.end3{
+        margin-left: 10px;
+    }
+    .icon{
+        margin-left: 400px;
+        margin-top: -13px;
+    }
+    .sos{
+        width: 450px;
+        font-size: 10px;
+        margin-top: 10px;
+        height: 30px;
+    }
+}
